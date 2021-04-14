@@ -16,7 +16,7 @@ body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
-nav {
+nav, nav.ui.menu {
   background-color: #5793fd;
   color: #ffffff;
   height: 80px;
@@ -35,6 +35,10 @@ a:visited {
 
 nav a:hover{
   opacity: 0.7;
+}
+
+.ui.menu .item, .ui.menu a.item:hover {
+  color: #fff;
 }
 
 header {
