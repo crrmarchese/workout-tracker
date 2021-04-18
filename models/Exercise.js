@@ -5,13 +5,13 @@ const ExerciseSchema = new Schema({
  type: { 
     type: String,
     trim: true,
-    required: true
+    required: [true, 'Choose a type of resistance or cardio']
   },
 
   name: {  
     type: String,
     unique: true,
-    required: true
+    required: [true, 'Name of the exercise']
   },
 
   duration: {
